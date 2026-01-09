@@ -59,7 +59,7 @@ header {
 
 /* Navbar button CSS */
 
-.navbar-btn button {
+.navbar-btn button, #start-btn {
   font-size: 16px;
   font-weight: 600;
   color: #fff;
@@ -67,35 +67,87 @@ header {
   border: none;
   background: #30b868;
   border-radius: 4px;
-  
 }
 /* hover for button */
-.navbar-btn button:hover {
-  background: #ffffff;
+.navbar-btn button:hover , #start-btn:hover {
+  background: none;
   color: #30b868;
   border: 0.5px solid #30b86996;
   box-shadow: 0 2px 5px 0 #57965894;
 }
 /* banner CSS start */
-#banner{
+#banner {
   background: url(../assets/hero-bg.png);
   /* height: 800px; */
   background-repeat: no-repeat;
-  background-size: cover;padding: 115.5px 120px;
+  background-size: cover;
+  padding: 115.5px 120px;
 }
 
-.banner-content{
+.banner-content {
   text-align: center;
-  
-}
-banner-title{
   width: 770px;
-
 }
 
-.banner-content h1{
+
+.banner-content .banner-access-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 50px;
+  padding: 8px 12px;
+}
+
+.banner-access-link img{
+  width: 25px;
+}
+
+.banner-content h1 {
   font-size: 72px;
   line-height: 80px;
   color: #fff;
-  /* margin: 0 auto; */
+  text-transform: capitalize;
+ margin-bottom: 20px;
+}
+
+.banner-content h1 span {
+  color: #30b868;
+}
+
+
+
+.banner-content p{
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.banner-btn{
+  display: flex;
+  gap: 20px;
+  justify-content:  center;
+  align-items: center;
+}
+#start-btn i{
+  margin-left: 10px;
+}
+
+#see-btn{
+  background: none;
+  border: 1px solid #fff;
+  padding: 12.5px 16px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#see-btn:hover{
+  background: #fff;
+  color: #30b868;
+  border: none;
 }
