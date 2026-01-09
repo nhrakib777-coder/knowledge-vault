@@ -30,6 +30,11 @@ p {
   color: #627382;
   margin-bottom: 24px;
 }
+
+a,
+button {
+  cursor: pointer;
+}
 /* Main CSS */
 /* header CSS */
 header {
@@ -283,8 +288,45 @@ header {
   font-size: 40px;
 }
 
-
-
 #action-btn {
   margin-bottom: 16px;
 }
+
+/* Footer CSS start */
+
+footer {
+  background-color: #001931;
+  text-align: center;
+  padding: 120px 0 20px;
+  margin-top: 113px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.footer-content .social-links h5 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.social-links .social-icons {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.social-links .social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+/* CSS  End */
