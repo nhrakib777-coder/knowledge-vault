@@ -22,6 +22,7 @@ h2 {
   font-size: 48px;
   color: #001931;
   font-weight: 800;
+  margin-bottom: 16px;
 }
 p {
   font-size: 16px;
@@ -71,7 +72,8 @@ header {
 /* Navbar button CSS */
 
 .navbar-btn button,
-#start-btn {
+#start-btn,
+#action-btn {
   font-size: 16px;
   font-weight: 600;
   color: #fff;
@@ -82,11 +84,12 @@ header {
 }
 /* hover for button */
 .navbar-btn button:hover,
-#start-btn:hover {
+#start-btn:hover,
+#action-btn:hover {
   background: none;
   color: #30b868;
   border: 0.5px solid #30b86996;
-  box-shadow: 0 2px 5px 0 #57965894;
+  box-shadow: 0px 0px 10px 0 #7a7a7a75;
 }
 /* banner CSS start */
 #banner {
@@ -242,14 +245,14 @@ header {
   margin-bottom: 16px;
 }
 
-.solution-title h2{
+.solution-title h2 {
   margin-bottom: 16px;
 }
 .solution-title ul {
   list-style: none;
 }
 
-.solution-title ul li{
+.solution-title ul li {
   font-size: 16;
   font-weight: 600;
   color: #001931;
@@ -257,11 +260,31 @@ header {
 }
 
 .solution-title ul li i {
-/* font-size: 16px; */
-background: #30b868;
-width: 25px;
-padding: 5px;
-border-radius: 50%;
-color: #fff;
-margin-right: 5px;
+  /* font-size: 16px; */
+  background: #30b868;
+  width: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 5px;
+}
+/* Action CSS start */
+
+#action {
+}
+
+.action-content {
+  background-color: #f7f6f2;
+  text-align: center;
+  padding: 80px 40px;
+}
+
+.action-title h2 {
+  font-size: 40px;
+}
+
+
+
+#action-btn {
+  margin-bottom: 16px;
 }
