@@ -1,0 +1,101 @@
+/* starting CSS for knoledge vault */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common CSS */
+
+.inter {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+  width: 70%;
+  max-width: 1360;
+  margin: 0 auto;
+}
+
+/* Main CSS */
+/* header CSS */
+header {
+  height: 92px;
+}
+/* Navbar CSS */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+/* Logo CSS */
+.logo img {
+  width: 139px;
+  height: 60px;
+}
+
+/* Menu CSS */
+
+#navbar #menu ul {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar #menu ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+#navbar #menu ul li a:hover {
+  color: #30b868;
+}
+
+/* Navbar button CSS */
+
+.navbar-btn button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  padding: 12.5px 16px;
+  border: none;
+  background: #30b868;
+  border-radius: 4px;
+  
+}
+/* hover for button */
+.navbar-btn button:hover {
+  background: #ffffff;
+  color: #30b868;
+  border: 0.5px solid #30b86996;
+  box-shadow: 0 2px 5px 0 #57965894;
+}
+/* banner CSS start */
+#banner{
+  background: url(../assets/hero-bg.png);
+  /* height: 800px; */
+  background-repeat: no-repeat;
+  background-size: cover;padding: 115.5px 120px;
+}
+
+.banner-content{
+  text-align: center;
+  
+}
+banner-title{
+  width: 770px;
+
+}
+
+.banner-content h1{
+  font-size: 72px;
+  line-height: 80px;
+  color: #fff;
+  /* margin: 0 auto; */
+}
